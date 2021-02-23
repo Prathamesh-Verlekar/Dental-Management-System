@@ -1,0 +1,2339 @@
+USE [DentalDB]
+GO
+
+User
+////////////////////////////////////////////////////////////////////////////////
+
+INSERT INTO [dbo].[User]
+           ([UserName]
+           ,[Password]
+           ,[RoleName]
+           ,[Is_Active]
+           ,[LastLogin_Datetime])
+     VALUES
+           ('Rash','Rash@123','Admin',0,'2018-06-05 00:00:00')
+GO
+INSERT INTO [dbo].[User]
+           ([UserName]
+           ,[Password]
+           ,[RoleName]
+           ,[Is_Active]
+           ,[LastLogin_Datetime])
+     VALUES
+           ('Savi','Savi@123','Dentist',1,'2019-06-05 00:00:00')
+GO
+INSERT INTO [dbo].[User]
+           ([UserName]
+           ,[Password]
+           ,[RoleName]
+           ,[Is_Active]
+           ,[LastLogin_Datetime])
+     VALUES
+           ('Shraddha','Shrad@123','Admin',1,'2018-07-08 00:00:00')
+GO
+INSERT INTO [dbo].[User]
+           ([UserName]
+           ,[Password]
+           ,[RoleName]
+           ,[Is_Active]
+           ,[LastLogin_Datetime])
+     VALUES
+           ('Anuj','Anuj@123','Dentist',1,'2018-06-05 12:12:12')
+GO
+INSERT INTO [dbo].[User]
+           ([UserName]
+           ,[Password]
+           ,[RoleName]
+           ,[Is_Active]
+           ,[LastLogin_Datetime])
+     VALUES
+           ('Sush','Sush@123','Dentist',1,'2015-06-05 00:00:00')
+GO
+INSERT INTO [dbo].[User]
+           ([UserName]
+           ,[Password]
+           ,[RoleName]
+           ,[Is_Active]
+           ,[LastLogin_Datetime])
+     VALUES
+           ('Sushi','Sushi@123','Admin',0,'2019-06-05 00:00:00')
+GO
+INSERT INTO [dbo].[User]
+           ([UserName]
+           ,[Password]
+           ,[RoleName]
+           ,[Is_Active]
+           ,[LastLogin_Datetime])
+     VALUES
+           ('Mukya','Mukya@123','Admin',1,'2019-03-05 00:00:00')
+GO
+
+
+Dentist
+/////////////////////////////////////////////////////////////////////////////////
+
+INSERT INTO [dbo].[Dentist]
+           ([First_Name]
+           ,[Last_Name]
+           ,[Middle_Name]
+           ,[SSN]
+           ,[Gender]
+           ,[PhoneNumber]
+           ,[WorkExperience]
+           ,[DentistType_ID]
+           ,[User_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('Savinder','Singh','Manish',786345678,'Male',9898768798,3,2,15,3,'2019-04-07 00:12:00',3,'2019-08-07 00:12:00')
+GO
+INSERT INTO [dbo].[Dentist]
+           ([First_Name]
+           ,[Last_Name]
+           ,[Middle_Name]
+           ,[SSN]
+           ,[Gender]
+           ,[PhoneNumber]
+           ,[WorkExperience]
+           ,[DentistType_ID]
+           ,[User_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('Shraddha','Satra','Manish',785555678,'Female',9999968798,2,2,16,3,'2019-04-07 00:10:00',3,'2019-08-07 00:10:00')
+GO
+INSERT INTO [dbo].[Dentist]
+           ([First_Name]
+           ,[Last_Name]
+           ,[Middle_Name]
+           ,[SSN]
+           ,[Gender]
+           ,[PhoneNumber]
+           ,[WorkExperience]
+           ,[DentistType_ID]
+           ,[User_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('Anuj','Nadiyana','Quish',786395678,'Male',9898769998,3,2,17,3,'2019-04-07 00:12:00',3,'2019-08-07 00:12:00')
+GO
+INSERT INTO [dbo].[Dentist]
+           ([First_Name]
+           ,[Last_Name]
+           ,[Middle_Name]
+           ,[SSN]
+           ,[Gender]
+           ,[PhoneNumber]
+           ,[WorkExperience]
+           ,[DentistType_ID]
+           ,[User_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('Sushant','Dakwe','Manish',996345678,'Male',9898760098,3,2,18,3,'2019-04-07 00:12:00',3,'2019-08-07 00:12:00')
+GO
+INSERT INTO [dbo].[Dentist]
+           ([First_Name]
+           ,[Last_Name]
+           ,[Middle_Name]
+           ,[SSN]
+           ,[Gender]
+           ,[PhoneNumber]
+           ,[WorkExperience]
+           ,[DentistType_ID]
+           ,[User_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('Shushmita','Singh','Rajesh',786345678,'Female',9898768555,2,3,15,1,'2015-04-07 00:12:00',3,'2019-08-07 00:12:00')
+GO
+
+Schedule
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[Schedule]
+           ([Start_Time]
+           ,[End_Time]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('10:12:12','12:16:12',2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Schedule]
+           ([Start_Time]
+           ,[End_Time]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('11:12:12','12:16:12',3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Schedule]
+           ([Start_Time]
+           ,[End_Time]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('04:12:12','12:16:12',3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Schedule]
+           ([Start_Time]
+           ,[End_Time]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('05:12:12','12:16:12',3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Schedule]
+           ([Start_Time]
+           ,[End_Time]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('00:12:12','12:00:12',1,SYSDATETIME())
+GO
+
+
+DentistSchedule
+////////////////////////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[DentistSchedule]
+           ([Dentist_ID]
+           ,[Schedule_ID]
+           ,[Day]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (12,2,'Monday',3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DentistSchedule]
+           ([Dentist_ID]
+           ,[Schedule_ID]
+           ,[Day]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (13,3,'Tuesday',3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DentistSchedule]
+           ([Dentist_ID]
+           ,[Schedule_ID]
+           ,[Day]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (14,4,'Wednesday',3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DentistSchedule]
+           ([Dentist_ID]
+           ,[Schedule_ID]
+           ,[Day]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (15,5,'Thursday',3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DentistSchedule]
+           ([Dentist_ID]
+           ,[Schedule_ID]
+           ,[Day]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (16,4,'Monday',3,SYSDATETIME(),3,SYSDATETIME())
+GO
+
+DentistLicenseDetails
+////////////////////////////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[DentistLicenseDetail]
+           ([Dentist_ID]
+           ,[LicenseNumber]
+           ,[ExpireDate]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (12,28886667,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DentistLicenseDetail]
+           ([Dentist_ID]
+           ,[LicenseNumber]
+           ,[ExpireDate]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (13,33386667,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DentistLicenseDetail]
+           ([Dentist_ID]
+           ,[LicenseNumber]
+           ,[ExpireDate]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (14,28886777,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DentistLicenseDetail]
+           ([Dentist_ID]
+           ,[LicenseNumber]
+           ,[ExpireDate]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (15,28855567,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DentistLicenseDetail]
+           ([Dentist_ID]
+           ,[LicenseNumber]
+           ,[ExpireDate]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (16,28886000,SYSDATETIME(),3,SYSDATETIME())
+GO
+
+DrugDetail
+/////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[DrugDetail]
+           ([Name]
+           ,[Description]
+           ,[DrugType]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('Crocin1','Strong','Type1',1,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DrugDetail]
+           ([Name]
+           ,[Description]
+           ,[DrugType]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('Crocin2','Weak','Type2',2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DrugDetail]
+           ([Name]
+           ,[Description]
+           ,[DrugType]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('Crocin3','Strong','Type3',1,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DrugDetail]
+           ([Name]
+           ,[Description]
+           ,[DrugType]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('Crocin4','Strong','Type4',1,SYSDATETIME())
+GO
+INSERT INTO [dbo].[DrugDetail]
+           ([Name]
+           ,[Description]
+           ,[DrugType]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('Crocin7','Medium','Type5',3,SYSDATETIME())
+GO
+
+Vendor
+/////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[Vendor]
+           ([Name]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('Rakesh',2,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Vendor]
+           ([Name]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('Pranay',3,SYSDATETIME(),2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Vendor]
+           ([Name]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('Shruthi',2,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Vendor]
+           ([Name]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('Tejal',2,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Vendor]
+           ([Name]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('Ankita',2,SYSDATETIME(),3,SYSDATETIME())
+GO
+
+Patient
+/////////////////////////////////////////////////////////////////////////////
+
+USE [dentalDB]
+GO
+
+INSERT INTO [dbo].[Patient]
+           ([First_Name]
+           ,[Last_Name]
+           ,[Middle_Name]
+           ,[Date_of_Birth]
+           ,[Address]
+           ,[City_ID]
+           ,[Zip_Code]
+           ,[Emergency_Contact_Number]
+           ,[Emergency_Contact_name]
+           ,[CreatedBy]
+           ,[CreatedDateTime]
+           ,[ModifiedBy]
+           ,[ModifiedDateTime])
+     VALUES
+           ('Nihar'
+           ,'Lokre'
+           ,'Rajesh'
+           ,01/20/1993
+           ,'130 Tremont Street'
+           ,1
+           ,02112
+           ,3587774125
+           ,'Yamaraj'
+           ,3
+           ,'2019-12-12 18:19:00.000'
+           ,3
+           ,GETDATE())
+GO
+
+
+
+INSERT INTO [dbo].[Patient]
+           ([First_Name]
+           ,[Last_Name]
+           ,[Middle_Name]
+           ,[Date_of_Birth]
+           ,[Address]
+           ,[City_ID]
+           ,[Zip_Code]
+           ,[Emergency_Contact_Number]
+           ,[Emergency_Contact_name]
+           ,[CreatedBy]
+           ,[CreatedDateTime]
+           ,[ModifiedBy]
+           ,[ModifiedDateTime])
+     VALUES
+           ('Nihit'
+           ,'Neema'
+           ,'Yash'
+           ,01/22/1993
+           ,'13 Washington Street'
+           ,2
+           ,02134
+           ,9876543210
+           ,'Kamdhenu'
+           ,4
+           ,SYSDATETIME()
+           ,4
+           ,SYSDATETIME())
+GO
+
+
+INSERT INTO [dbo].[Patient]
+           ([First_Name]
+           ,[Last_Name]
+           ,[Middle_Name]
+           ,[Date_of_Birth]
+           ,[Address]
+           ,[City_ID]
+           ,[Zip_Code]
+           ,[Emergency_Contact_Number]
+           ,[Emergency_Contact_name]
+           ,[CreatedBy]
+           ,[CreatedDateTime]
+           ,[ModifiedBy]
+           ,[ModifiedDateTime])
+     VALUES
+           ('Yash'
+           ,'Neema'
+           ,'Pankaj'
+           ,01/22/1990
+           ,'13 Boliver Street'
+           ,2
+           ,02145
+           ,9638527410
+           ,'BabuRao'
+           ,5
+           ,SYSDATETIME()
+           ,5
+           ,SYSDATETIME())
+GO
+
+
+INSERT INTO [dbo].[Patient]
+           ([First_Name]
+           ,[Last_Name]
+           ,[Middle_Name]
+           ,[Date_of_Birth]
+           ,[Address]
+           ,[City_ID]
+           ,[Zip_Code]
+           ,[Emergency_Contact_Number]
+           ,[Emergency_Contact_name]
+           ,[CreatedBy]
+           ,[CreatedDateTime]
+           ,[ModifiedBy]
+           ,[ModifiedDateTime])
+     VALUES
+           ('Pankaj'
+           ,'Tripathi'
+           ,'Puja'
+           ,01/22/1990
+           ,'13 Venom Street'
+           ,2
+           ,02134
+           ,9876543210
+           ,'Kamdhenu'
+           ,6
+           ,SYSDATETIME()
+           ,6
+           ,SYSDATETIME())
+GO
+
+INSERT INTO [dbo].[Patient]
+           ([First_Name]
+           ,[Last_Name]
+           ,[Middle_Name]
+           ,[Date_of_Birth]
+           ,[Address]
+           ,[City_ID]
+           ,[Zip_Code]
+           ,[Emergency_Contact_Number]
+           ,[Emergency_Contact_name]
+           ,[CreatedBy]
+           ,[CreatedDateTime]
+           ,[ModifiedBy]
+           ,[ModifiedDateTime])
+     VALUES
+           ('Babesh'
+           ,'Banrejee'
+           ,'Nilu'
+           ,01/22/1995
+           ,'13 Cornila Street'
+           ,2
+           ,02134
+           ,852963741
+           ,'Kambhari'
+           ,7
+           ,SYSDATETIME()
+           ,7
+           ,SYSDATETIME())
+GO
+
+
+INSERT INTO [dbo].[Patient]
+           ([First_Name]
+           ,[Last_Name]
+           ,[Middle_Name]
+           ,[Date_of_Birth]
+           ,[Address]
+           ,[City_ID]
+           ,[Zip_Code]
+           ,[Emergency_Contact_Number]
+           ,[Emergency_Contact_name]
+           ,[CreatedBy]
+           ,[CreatedDateTime]
+           ,[ModifiedBy]
+           ,[ModifiedDateTime])
+     VALUES
+           ('Papesh'
+           ,'Bolikar'
+           ,'Prathamesh'
+           ,01/22/1996
+           ,'13 Jay Street'
+           ,2
+           ,02134
+           ,1597534562
+           ,'Ricky'
+           ,8
+           ,SYSDATETIME()
+           ,8
+           ,SYSDATETIME())
+GO
+
+Prescription
+//////////////////////////////////////////////////////////////
+
+USE [dentalDB]
+GO
+
+INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1,'Brush your teeth twice a day',1,SYSDATETIME(),1,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2,'Brush your teeth twice a day',2,SYSDATETIME(),2,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (3,'Bad Gums',3,SYSDATETIME(),3,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (4,'Braces needed',4,SYSDATETIME(),4,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (5,'Brush your teeth twice a day',5,SYSDATETIME(),5,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (6,NULL,6,SYSDATETIME(),6,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (7,'Uneven lower teeth',7,SYSDATETIME(),7,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (8,'Bad Gum',8,SYSDATETIME(),8,SYSDATETIME())
+		   
+		   
+XRAYDETAILS		   
+////////////////////////////////////////////////////////////////////
+
+USE [dentalDB]
+GO
+
+INSERT INTO [dbo].[XRayDetail]
+           ([PatientTreatment_ID]
+           ,[Tooth_Name]
+           ,[FilePath]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1,'URC','abc',1,SYSDATETIME(),1,SYSDATETIME())
+
+		   INSERT INTO [dbo].[XRayDetail]
+           ([PatientTreatment_ID]
+           ,[Tooth_Name]
+           ,[FilePath]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2,'URL','sds',2,SYSDATETIME(),4,SYSDATETIME())
+
+		   INSERT INTO [dbo].[XRayDetail]
+           ([PatientTreatment_ID]
+           ,[Tooth_Name]
+           ,[FilePath]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (3,'UR1B','ere',5,SYSDATETIME(),6,SYSDATETIME())
+
+		   INSERT INTO [dbo].[XRayDetail]
+           ([PatientTreatment_ID]
+           ,[Tooth_Name]
+           ,[FilePath]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (4,'UR1M','jij',6,SYSDATETIME(),1,SYSDATETIME())
+
+		   INSERT INTO [dbo].[XRayDetail]
+           ([PatientTreatment_ID]
+           ,[Tooth_Name]
+           ,[FilePath]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (5,'LR3M','pwp',6,SYSDATETIME(),5,SYSDATETIME())
+
+		   INSERT INTO [dbo].[XRayDetail]
+           ([PatientTreatment_ID]
+           ,[Tooth_Name]
+           ,[FilePath]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (6,'LL2M','sius',5,SYSDATETIME(),6,SYSDATETIME())
+
+		   INSERT INTO [dbo].[XRayDetail]
+           ([PatientTreatment_ID]
+           ,[Tooth_Name]
+           ,[FilePath]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (7,'ULC','meh',7,SYSDATETIME(),7,SYSDATETIME())
+
+		   INSERT INTO [dbo].[XRayDetail]
+           ([PatientTreatment_ID]
+           ,[Tooth_Name]
+           ,[FilePath]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (8,'UL2B','itd',2,SYSDATETIME(),3,SYSDATETIME())
+GO
+
+SuppliesDetail
+////////////////////////////////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[SuppliesDetail]
+           ([SuppliesDetail_ID]
+           ,[Name]
+           ,[Description]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1,'Gloves','XYZ',20,1,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[SuppliesDetail]
+           ([SuppliesDetail_ID]
+           ,[Name]
+           ,[Description]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2,'Nuts','PQR',20,1,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[SuppliesDetail]
+           ([SuppliesDetail_ID]
+           ,[Name]
+           ,[Description]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (3,'Supply5','BCP',13,1,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[SuppliesDetail]
+           ([SuppliesDetail_ID]
+           ,[Name]
+           ,[Description]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (4,'Supply6','XYZ',20,1,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[SuppliesDetail]
+           ([SuppliesDetail_ID]
+           ,[Name]
+           ,[Description]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (5,'Supply7','BCW',29,1,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[SuppliesDetail]
+           ([SuppliesDetail_ID]
+           ,[Name]
+           ,[Description]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (6,'Supply8','UPC',200,1,2,SYSDATETIME(),2,SYSDATETIME())
+GO
+
+Location
+///////////////////////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[Location]
+           ([Location_Name]
+           ,[Location_Address]
+           ,[City_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('Location1','Bay 123',3,3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Location]
+           ([Location_Name]
+           ,[Location_Address]
+           ,[City_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('Location2','Bay 456',10,3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Location]
+           ([Location_Name]
+           ,[Location_Address]
+           ,[City_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('Location3','Bay 888',4,3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Location]
+           ([Location_Name]
+           ,[Location_Address]
+           ,[City_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('Location4','Back Bay 123',11,3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Location]
+           ([Location_Name]
+           ,[Location_Address]
+           ,[City_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           ('Location5','Tremont 123',4,3,SYSDATETIME())
+GO
+
+
+Room
+/////////////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[Room]
+           ([Location_ID]
+           ,[Room_Name]
+           ,[Room_Number]
+           ,[Floor]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (1,'Mendosa',12,2,2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Room]
+           ([Location_ID]
+           ,[Room_Name]
+           ,[Room_Number]
+           ,[Floor]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (1,'Tulip1',12,2,2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Room]
+           ([Location_ID]
+           ,[Room_Name]
+           ,[Room_Number]
+           ,[Floor]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (2,'Sunflower1',12,2,2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Room]
+           ([Location_ID]
+           ,[Room_Name]
+           ,[Room_Number]
+           ,[Floor]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (3,'Sunflower2',12,2,2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Room]
+           ([Location_ID]
+           ,[Room_Name]
+           ,[Room_Number]
+           ,[Floor]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (4,'Mendosa3',12,2,2,SYSDATETIME())
+GO
+
+EquipmentDetails
+//////////////////////////////////////////////////////////////////
+USE [dentalDB]
+GO
+
+INSERT INTO [dbo].[EquipmentDetail]
+           ([EquipmentName]
+           ,[Description]
+           ,[EquipmentType]
+           ,[IsPortable]
+           ,[Contract_EndDate]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('EQXR1','X-Ray Machine','EType1',0,SYSDATETIME(),5,1,1,SYSDATETIME(),1,SYSDATETIME())
+
+		   INSERT INTO [dbo].[EquipmentDetail]
+           ([EquipmentName]
+           ,[Description]
+           ,[EquipmentType]
+           ,[IsPortable]
+           ,[Contract_EndDate]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('EQXR2','X-Ray Machine','EType2',0,SYSDATETIME(),2,2,2,SYSDATETIME(),2,SYSDATETIME())
+
+		   INSERT INTO [dbo].[EquipmentDetail]
+           ([EquipmentName]
+           ,[Description]
+           ,[EquipmentType]
+           ,[IsPortable]
+           ,[Contract_EndDate]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('EQXR1','X-Ray Machine','EType3',0,SYSDATETIME(),4,1,3,SYSDATETIME(),4,SYSDATETIME())
+
+		   INSERT INTO [dbo].[EquipmentDetail]
+           ([EquipmentName]
+           ,[Description]
+           ,[EquipmentType]
+           ,[IsPortable]
+           ,[Contract_EndDate]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('EQXR3','X-Ray Machine','EType4',0,SYSDATETIME(),4,5,1,SYSDATETIME(),5,SYSDATETIME())
+
+		   INSERT INTO [dbo].[EquipmentDetail]
+           ([EquipmentName]
+           ,[Description]
+           ,[EquipmentType]
+           ,[IsPortable]
+           ,[Contract_EndDate]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('EQXR4','X-Ray Machine','EType5',0,SYSDATETIME(),2,3,3,SYSDATETIME(),3,SYSDATETIME())
+
+		   INSERT INTO [dbo].[EquipmentDetail]
+           ([EquipmentName]
+           ,[Description]
+           ,[EquipmentType]
+           ,[IsPortable]
+           ,[Contract_EndDate]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('EQXR5','X-Ray Machine','EType6',0,SYSDATETIME(),3,1,3,SYSDATETIME(),3,SYSDATETIME())
+
+		   INSERT INTO [dbo].[EquipmentDetail]
+           ([EquipmentName]
+           ,[Description]
+           ,[EquipmentType]
+           ,[IsPortable]
+           ,[Contract_EndDate]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('EQXR6','X-Ray Machine','EType7',0,SYSDATETIME(),3,2,2,SYSDATETIME(),2,SYSDATETIME())
+
+		   INSERT INTO [dbo].[EquipmentDetail]
+           ([EquipmentName]
+           ,[Description]
+           ,[EquipmentType]
+           ,[IsPortable]
+           ,[Contract_EndDate]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('EQXR7','Dental Drill','EType8',0,SYSDATETIME(),4,1,1,SYSDATETIME(),1,SYSDATETIME())
+
+		   INSERT INTO [dbo].[EquipmentDetail]
+           ([EquipmentName]
+           ,[Description]
+           ,[EquipmentType]
+           ,[IsPortable]
+           ,[Contract_EndDate]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('EQXR7','Dental Chair Set','EType9',0,SYSDATETIME(),5,3,6,SYSDATETIME(),6,SYSDATETIME())
+
+		   INSERT INTO [dbo].[EquipmentDetail]
+           ([EquipmentName]
+           ,[Description]
+           ,[EquipmentType]
+           ,[IsPortable]
+           ,[Contract_EndDate]
+           ,[TotalQuantity]
+           ,[Vendor_ID]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           ('EQXR7','Dental Drill','EType10',0,SYSDATETIME(),5,2,7,SYSDATETIME(),7,SYSDATETIME())
+GO
+
+RoomEquipmentDetail
+////////////////////////////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[RoomEquipmentDetail]
+           ([Room_ID]
+           ,[EquipmentDetail_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1,2,10,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[RoomEquipmentDetail]
+           ([Room_ID]
+           ,[EquipmentDetail_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2,1,5,2,SYSDATETIME(),2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[RoomEquipmentDetail]
+           ([Room_ID]
+           ,[EquipmentDetail_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (3,3,7,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[RoomEquipmentDetail]
+           ([Room_ID]
+           ,[EquipmentDetail_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (4,2,10,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[RoomEquipmentDetail]
+           ([Room_ID]
+           ,[EquipmentDetail_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (5,2,1,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+
+PatientClinicalData
+//////////////////////////////////////////////////////////////////
+
+USE [dentalDB]
+GO
+
+INSERT INTO [dbo].[PatientClinicalData]
+           ([PatientTreatment_ID]
+           ,[Total_Tooths]
+           ,[Plaque]
+           ,[Strains]
+           ,[Abrasions]
+           ,[Contact_Points]
+           ,[OverHangs]
+           ,[GingivalTissues]
+           ,[Color]
+           ,[Recession]
+           ,[Pockets]
+           ,[Palate]
+           ,[Frenum]
+           ,[Tongue]
+           ,[Ridge]
+           ,[Exudate]
+           ,[AreaofFoodRetention]
+           ,[Saliva]
+           ,[Calculus]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1
+           ,31
+           ,0
+           ,'Connectivity issue'
+           ,1
+           ,1
+           ,0
+           ,'Yes'
+           ,'yellow'
+           ,0
+           ,1
+           ,'Yes'
+           ,0
+           ,1
+           ,1
+           ,0
+           ,1
+           ,1
+           ,'tartar'
+           ,3
+           ,SYSDATETIME()
+           ,3
+           ,SYSDATETIME())
+GO
+
+
+
+INSERT INTO [dbo].[PatientClinicalData]
+           ([PatientTreatment_ID]
+           ,[Total_Tooths]
+           ,[Plaque]
+           ,[Strains]
+           ,[Abrasions]
+           ,[Contact_Points]
+           ,[OverHangs]
+           ,[GingivalTissues]
+           ,[Color]
+           ,[Recession]
+           ,[Pockets]
+           ,[Palate]
+           ,[Frenum]
+           ,[Tongue]
+           ,[Ridge]
+           ,[Exudate]
+           ,[AreaofFoodRetention]
+           ,[Saliva]
+           ,[Calculus]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2
+           ,30
+           ,1
+           ,'Connectivity issue'
+           ,0
+           ,1
+           ,1
+           ,'Yes'
+           ,'brown'
+           ,1
+           ,0
+           ,'Yes'
+           ,0
+           ,1
+           ,1
+           ,0
+           ,1
+           ,1
+           ,'tartar'
+           ,3
+           ,SYSDATETIME()
+           ,3
+           ,SYSDATETIME())
+GO
+
+
+INSERT INTO [dbo].[PatientClinicalData]
+           ([PatientTreatment_ID]
+           ,[Total_Tooths]
+           ,[Plaque]
+           ,[Strains]
+           ,[Abrasions]
+           ,[Contact_Points]
+           ,[OverHangs]
+           ,[GingivalTissues]
+           ,[Color]
+           ,[Recession]
+           ,[Pockets]
+           ,[Palate]
+           ,[Frenum]
+           ,[Tongue]
+           ,[Ridge]
+           ,[Exudate]
+           ,[AreaofFoodRetention]
+           ,[Saliva]
+           ,[Calculus]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (3
+           ,28
+           ,1
+           ,'Connectivity tissue'
+           ,1
+           ,1
+           ,0
+           ,'Yes'
+           ,'white'
+           ,0
+           ,1
+           ,'Yes'
+           ,0
+           ,1
+           ,1
+           ,0
+           ,1
+           ,1
+           ,'tartar'
+           ,3
+           ,SYSDATETIME()
+           ,3
+           ,SYSDATETIME())
+GO
+
+
+
+
+
+
+INSERT INTO [dbo].[PatientClinicalData]
+           ([PatientTreatment_ID]
+           ,[Total_Tooths]
+           ,[Plaque]
+           ,[Strains]
+           ,[Abrasions]
+           ,[Contact_Points]
+           ,[OverHangs]
+           ,[GingivalTissues]
+           ,[Color]
+           ,[Recession]
+           ,[Pockets]
+           ,[Palate]
+           ,[Frenum]
+           ,[Tongue]
+           ,[Ridge]
+           ,[Exudate]
+           ,[AreaofFoodRetention]
+           ,[Saliva]
+           ,[Calculus]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (4
+           ,29
+           ,0
+           ,'Connectivity tissue'
+           ,1
+           ,0
+           ,0
+           ,'Yes'
+           ,'white'
+           ,0
+           ,1
+           ,'Yes'
+           ,1
+           ,1
+           ,1
+           ,1
+           ,1
+           ,1
+           ,'tartar'
+           ,3
+           ,SYSDATETIME()
+           ,3
+           ,SYSDATETIME())
+GO
+
+
+
+INSERT INTO [dbo].[PatientClinicalData]
+           ([PatientTreatment_ID]
+           ,[Total_Tooths]
+           ,[Plaque]
+           ,[Strains]
+           ,[Abrasions]
+           ,[Contact_Points]
+           ,[OverHangs]
+           ,[GingivalTissues]
+           ,[Color]
+           ,[Recession]
+           ,[Pockets]
+           ,[Palate]
+           ,[Frenum]
+           ,[Tongue]
+           ,[Ridge]
+           ,[Exudate]
+           ,[AreaofFoodRetention]
+           ,[Saliva]
+           ,[Calculus]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (5
+           ,31
+           ,0
+           ,'Connectivity tissue'
+           ,1
+           ,0
+           ,0
+           ,'Yes'
+           ,'yellow'
+           ,0
+           ,1
+           ,'Yes'
+           ,0
+           ,0
+           ,0
+           ,0
+           ,1
+           ,1
+           ,'tartar'
+           ,3
+           ,SYSDATETIME()
+           ,3
+           ,SYSDATETIME())
+GO
+
+
+RoomSuppliesDetail
+////////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[RoomSuppliesDetail]
+           ([Room_ID]
+           ,[SuppliesDetail_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2,2,12,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[RoomSuppliesDetail]
+           ([Room_ID]
+           ,[SuppliesDetail_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2,3,20,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[RoomSuppliesDetail]
+           ([Room_ID]
+           ,[SuppliesDetail_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1,4,28,2,SYSDATETIME(),2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[RoomSuppliesDetail]
+           ([Room_ID]
+           ,[SuppliesDetail_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (3,3,12,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[RoomSuppliesDetail]
+           ([Room_ID]
+           ,[SuppliesDetail_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (4,1,12,1,SYSDATETIME(),3,SYSDATETIME())
+GO
+
+Prescription
+/////////////////////////////////////////////////////////////////
+
+USE [dentalDB]
+GO
+
+INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1,'Brush your teeth twice a day',1,SYSDATETIME(),1,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2,'Brush your teeth twice a day',2,SYSDATETIME(),2,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (3,'Bad Gums',3,SYSDATETIME(),3,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (4,'Braces needed',4,SYSDATETIME(),4,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (5,'Brush your teeth twice a day',5,SYSDATETIME(),5,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (6,NULL,6,SYSDATETIME(),6,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (7,'Uneven lower teeth',7,SYSDATETIME(),7,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Prescription]
+           ([PatientTreatment_ID]
+           ,[DentistComments]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (8,'Bad Gum',8,SYSDATETIME(),8,SYSDATETIME())
+		   
+PrescriptionDrugDetail
+////////////////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[PrescriptionDrugDetail]
+           ([DrugDetail_ID]
+           ,[Prescription_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1,2,20,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[PrescriptionDrugDetail]
+           ([DrugDetail_ID]
+           ,[Prescription_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (3,4,50,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[PrescriptionDrugDetail]
+           ([DrugDetail_ID]
+           ,[Prescription_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2,2,10,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[PrescriptionDrugDetail]
+           ([DrugDetail_ID]
+           ,[Prescription_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (5,2,20,1,SYSDATETIME(),1,SYSDATETIME())
+GO
+INSERT INTO [dbo].[PrescriptionDrugDetail]
+           ([DrugDetail_ID]
+           ,[Prescription_ID]
+           ,[Quantity]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (4,4,20,3,SYSDATETIME(),3,SYSDATETIME())
+GO
+
+
+PatientMedicalHistory
+///////////////////////////////////////////////////////////////////////////////////////////
+USE [dentalDB]
+GO
+
+INSERT INTO [dbo].[PatientMedicalHistory]
+           ([Patient_ID]
+           ,[AllergyDetails]
+           ,[OtherDiseases]
+           ,[Medical_Report_File_Path]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (1
+           ,'Skin rinkles'
+           ,'Chest pain'
+           ,'C:\Users\hp\Desktop'
+           ,3
+           ,SYSDATETIME())
+GO
+
+
+INSERT INTO [dbo].[PatientMedicalHistory]
+           ([Patient_ID]
+           ,[AllergyDetails]
+           ,[OtherDiseases]
+           ,[Medical_Report_File_Path]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (2
+           ,'Food Allergy'
+           ,'infectious diseases'
+           ,'C:\Users\hp\Desktop'
+           ,3
+           ,SYSDATETIME())
+GO
+
+
+
+INSERT INTO [dbo].[PatientMedicalHistory]
+           ([Patient_ID]
+           ,[AllergyDetails]
+           ,[OtherDiseases]
+           ,[Medical_Report_File_Path]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (3
+           ,'Insect Allergy'
+           ,'non-genetic'
+           ,'C:\Users\hp\Desktop'
+           ,3
+           ,SYSDATETIME())
+GO
+
+INSERT INTO [dbo].[PatientMedicalHistory]
+           ([Patient_ID]
+           ,[AllergyDetails]
+           ,[OtherDiseases]
+           ,[Medical_Report_File_Path]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (4
+           ,'Pollen Allergies'
+           ,'non-genetic'
+           ,'C:\Users\hp\Desktop'
+           ,3
+           ,SYSDATETIME())
+GO
+
+INSERT INTO [dbo].[PatientMedicalHistory]
+           ([Patient_ID]
+           ,[AllergyDetails]
+           ,[OtherDiseases]
+           ,[Medical_Report_File_Path]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (5
+           ,'Skin Allergies'
+           ,'non-genetic'
+           ,'C:\Users\hp\Desktop'
+           ,3
+           ,SYSDATETIME())
+GO
+
+PatientInsuranceDetail
+////////////////////////////////////////////////////////////////////////////
+
+USE [dentalDB]
+GO
+
+INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1,1234,500.00,1,SYSDATETIME(),1,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2,12464,500.00,2,SYSDATETIME(),2,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (3,35234,1500.00,3,SYSDATETIME(),3,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (4,45234,1000.00,4,SYSDATETIME(),4,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (5,5234,2500.00,1,SYSDATETIME(),5,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (6,7734,300.00,6,SYSDATETIME(),6,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (7,5784,900.00,7,SYSDATETIME(),4,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (8,1276,800.00,8,SYSDATETIME(),7,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (9,6744,500.00,9,SYSDATETIME(),9,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (10,145234,1200.00,6,SYSDATETIME(),7,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (11,12634,500.00,2,SYSDATETIME(),3,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (12,15234,500.00,4,SYSDATETIME(),5,SYSDATETIME())
+
+		   INSERT INTO [dbo].[PatientInsuranceDetails]
+           ([Patient_ID]
+           ,[InsuranceNumber]
+           ,[Max_Coverage_Amount]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (13,14234,500.00,2,SYSDATETIME(),7,SYSDATETIME())
+GO
+
+
+AppointmentDetail
+////////////////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[AppointmentDetail]
+           ([Patient_ID]
+           ,[Dentist_ID]
+           ,[Room_ID]
+           ,[Start_Time]
+           ,[End_Time]
+           ,[Appointment_Datetime]
+           ,[Comment]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (9,12,2,'01:30:30','02:30:30','2020-01-01 00:30:00','Regular checkup',2,'2019-01-01 00:30:00',2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[AppointmentDetail]
+           ([Patient_ID]
+           ,[Dentist_ID]
+           ,[Room_ID]
+           ,[Start_Time]
+           ,[End_Time]
+           ,[Appointment_Datetime]
+           ,[Comment]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (8,13,2,'01:30:30','03:30:30','2020-03-01 00:30:00','Regular checkup',2,'2019-01-01 00:30:00',2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[AppointmentDetail]
+           ([Patient_ID]
+           ,[Dentist_ID]
+           ,[Room_ID]
+           ,[Start_Time]
+           ,[End_Time]
+           ,[Appointment_Datetime]
+           ,[Comment]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (7,14,2,'01:30:30','04:30:30','2020-03-01 00:30:00','Regular checkup',2,'2019-01-01 00:30:00',2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[AppointmentDetail]
+           ([Patient_ID]
+           ,[Dentist_ID]
+           ,[Room_ID]
+           ,[Start_Time]
+           ,[End_Time]
+           ,[Appointment_Datetime]
+           ,[Comment]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1,15,2,'01:30:30','02:30:30','2020-01-01 00:30:00','Regular checkup',2,'2019-01-01 00:30:00',2,SYSDATETIME())
+GO
+INSERT INTO [dbo].[AppointmentDetail]
+           ([Patient_ID]
+           ,[Dentist_ID]
+           ,[Room_ID]
+           ,[Start_Time]
+           ,[End_Time]
+           ,[Appointment_Datetime]
+           ,[Comment]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (6,13,2,'01:30:30','02:30:30','2020-01-01 00:30:00','Regular checkup',3,'2019-01-01 00:30:00',3,SYSDATETIME())
+GO
+
+
+Invoice
+/////////////////////////////////////////////////////////////////////////////
+
+USE [dentalDB]
+GO
+
+INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1000.00,50.00,1050.00,'Desc1',1,SYSDATETIME(),1,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2000.00,50.00,2050.00,'Desc2',3,SYSDATETIME(),2,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2000.00,10.00,2010.00,'Desc3',3,SYSDATETIME(),3,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (500.00,50.00,550.00,'Desc4',4,SYSDATETIME(),4,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2000.00,50.00,2050.00,'Desc5',5,SYSDATETIME(),4,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (100.00,5.00,105.00,'Desc6',5,SYSDATETIME(),6,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (800.00,50.00,850.00,'Desc7',7,SYSDATETIME(),7,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1100.00,50.00,1150.00,'Desc8',8,SYSDATETIME(),4,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2000.00,50.00,2050.00,'Desc9',6,SYSDATETIME(),3,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1000.00,20.00,1020.00,'Desc10',7,SYSDATETIME(),2,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (1001.00,50.00,1051.00,'Desc11',3,SYSDATETIME(),1,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (2000.00,50.00,2050.00,'Desc12',1,SYSDATETIME(),1,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (3000.00,50.00,3050.00,'Desc13',6,SYSDATETIME(),8,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (200.00,5.00,205.00,'Desc14',2,SYSDATETIME(),5,SYSDATETIME())
+
+		   INSERT INTO [dbo].[Invoice]
+           ([TreatmentFees]
+           ,[OtherCharges]
+           ,[FinalAmount]
+           ,[Description]
+           ,[CreatedBy]
+           ,[CreatedDatetime]
+           ,[ModifiedBy]
+           ,[ModifiedDatetime])
+     VALUES
+           (400.00,50.00,450.00,'Desc15',4,SYSDATETIME(),5,SYSDATETIME())
+GO
+
+Payment
+//////////////////////////////////////////////////////////////////////////////////
+
+USE [DentalDB]
+GO
+
+INSERT INTO [dbo].[Payment]
+           ([Invoice_ID]
+           ,[PatientTreatment_ID]
+           ,[TreatmentFee]
+           ,[PaymentMode]
+           ,[PaymentBy]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (3,5,200,'Cash','Rajesh',3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Payment]
+           ([Invoice_ID]
+           ,[PatientTreatment_ID]
+           ,[TreatmentFee]
+           ,[PaymentMode]
+           ,[PaymentBy]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (4,5,200,'Insurance','Mahesh',3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Payment]
+           ([Invoice_ID]
+           ,[PatientTreatment_ID]
+           ,[TreatmentFee]
+           ,[PaymentMode]
+           ,[PaymentBy]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (1,5,500,'Card','Raj',3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Payment]
+           ([Invoice_ID]
+           ,[PatientTreatment_ID]
+           ,[TreatmentFee]
+           ,[PaymentMode]
+           ,[PaymentBy]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (2,1,200,'Cash','Ravi',3,SYSDATETIME())
+GO
+INSERT INTO [dbo].[Payment]
+           ([Invoice_ID]
+           ,[PatientTreatment_ID]
+           ,[TreatmentFee]
+           ,[PaymentMode]
+           ,[PaymentBy]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (2,2,50,'Cash','Ram',3,SYSDATETIME())
+GO
+
+PatientTreatmentHistory
+/////////////////////////////////////////////////////////////////
+
+USE [dentalDB]
+GO
+
+INSERT INTO [dbo].[PatientTreatmentHistory]
+           ([PatientTreatment_ID]
+           ,[AppointmentDetail_ID]
+           ,[TreatmentComment]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (4
+           ,10
+           ,'disorder prevented'
+           ,3
+           ,SYSDATETIME())
+GO
+
+
+INSERT INTO [dbo].[PatientTreatmentHistory]
+           ([PatientTreatment_ID]
+           ,[AppointmentDetail_ID]
+           ,[TreatmentComment]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (5
+           ,11
+           ,'Root canal cleared'
+           ,3
+           ,SYSDATETIME())
+GO
+
+INSERT INTO [dbo].[PatientTreatmentHistory]
+           ([PatientTreatment_ID]
+           ,[AppointmentDetail_ID]
+           ,[TreatmentComment]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (6
+           ,12
+           ,'Tooth plague is removed'
+           ,3
+           ,SYSDATETIME())
+GO
+
+INSERT INTO [dbo].[PatientTreatmentHistory]
+           ([PatientTreatment_ID]
+           ,[AppointmentDetail_ID]
+           ,[TreatmentComment]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (7
+           ,13
+           ,'black heads of teeth cleared'
+           ,3
+           ,SYSDATETIME())
+GO
+
+INSERT INTO [dbo].[PatientTreatmentHistory]
+           ([PatientTreatment_ID]
+           ,[AppointmentDetail_ID]
+           ,[TreatmentComment]
+           ,[CreatedBy]
+           ,[CreatedDatetime])
+     VALUES
+           (8
+           ,14
+           ,'Teeth made in proper positions'
+           ,3
+           ,SYSDATETIME())
+GO
+
+

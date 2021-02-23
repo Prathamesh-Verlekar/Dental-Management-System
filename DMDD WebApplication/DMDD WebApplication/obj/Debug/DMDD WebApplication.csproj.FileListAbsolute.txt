@@ -1,0 +1,101 @@
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\DMDD WebApplication.dll.config
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\DMDD WebApplication.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\DMDD WebApplication.pdb
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\csc.exe
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\csc.exe.config
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\csc.rsp
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\csi.exe
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\csi.rsp
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.AppContext.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.Collections.Immutable.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.IO.FileSystem.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\vbc.exe
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\vbc.exe.config
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\vbc.rsp
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\VBCSCompiler.exe
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\VBCSCompiler.exe.config
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Antlr3.Runtime.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\AspNet.ScriptManager.bootstrap.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\AspNet.ScriptManager.jQuery.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.ScriptManager.WebForms.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Newtonsoft.Json.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\System.Web.Optimization.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\WebGrease.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\System.Web.Optimization.xml
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Newtonsoft.Json.xml
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Antlr3.Runtime.pdb
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\obj\Debug\DMDD WebApplication.csproj.CoreCompileInputs.cache
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\obj\Debug\DMDD WebApplication.csproj.CopyComplete
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\obj\Debug\DMDD WebApplication.dll
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\obj\Debug\DMDD WebApplication.pdb
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\DMDD WebApplication.dll.config
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\DMDD WebApplication.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\DMDD WebApplication.pdb
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Antlr3.Runtime.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Newtonsoft.Json.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\System.Web.Optimization.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\WebGrease.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\System.Web.Optimization.xml
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Newtonsoft.Json.xml
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Antlr3.Runtime.pdb
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\obj\Debug\DMDD WebApplication.csproj.CopyComplete
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\obj\Debug\DMDD WebApplication.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\obj\Debug\DMDD WebApplication.pdb
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\csc.exe
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\csc.exe.config
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\csc.rsp
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\csi.exe
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\csi.rsp
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.AppContext.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\vbc.exe
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\vbc.exe.config
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\vbc.rsp
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\verle\Local_Repository_GitHub\DMDDProject\DMDD WebApplication\DMDD WebApplication\obj\Debug\DMDD WebApplication.csprojAssemblyReference.cache
+D:\DMDD\DMDD Project Git\DMDDProject\DMDD WebApplication\DMDD WebApplication\obj\Debug\DMDD WebApplication.csprojAssemblyReference.cache
