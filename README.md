@@ -1,9 +1,9 @@
 # Dental-Management-System-Database
 ## Deliverables
-• High Level Database Diagram.\
-• Business Rules.\
-• Main Subject Area.\
-• Data Model.
+- High Level Database Diagram.
+- Business Rules.
+- Main Subject Area.
+- Data Model.
 
 ### High Level Diagram
 ![](Project%20Diagrams/HighLevelDiagram.PNG)
