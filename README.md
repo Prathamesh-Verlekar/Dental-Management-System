@@ -1,5 +1,5 @@
 # Dental-Management-System-Database
-## Deliverables
+### Deliverables
 - High Level Database Diagram.
 - Business Rules.
 - Main Subject Area.
