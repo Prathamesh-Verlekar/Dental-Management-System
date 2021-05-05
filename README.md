@@ -31,7 +31,7 @@ https://codelabs-preview.appspot.com/?file_id=19Bnws-7eOGZbO5uSpvoPmIzAeLpOETKMh
 ![](Project%20Diagrams%20and%20Images/TreatmentClusterPNG.PNG)
 
 ### Application Login Page
-![](Project%20Diagrams%20and%20Images/Login Page.png)
+![](Project%20Diagrams%20and%20Images/Login%20Page.png)
 
 
 ### Sample queries which we can run on the database
