@@ -15,7 +15,7 @@
 ![](Project%20Diagrams/DentistCluster.PNG)
 
 ### Inventory Cluster Model
-![](Project Diagrams/InventoryCluster.png)
+![](Project%20Diagrams/InventoryCluster.png)
 
 ### Patient Cluster Model
 ![](Project%20Diagrams/PatientCluster.PNG)
