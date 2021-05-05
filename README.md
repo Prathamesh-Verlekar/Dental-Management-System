@@ -32,6 +32,9 @@ https://codelabs-preview.appspot.com/?file_id=19Bnws-7eOGZbO5uSpvoPmIzAeLpOETKMh
 ### Treatment Cluster Model
 ![](Project%20Diagrams%20and%20Images/TreatmentClusterPNG.PNG)
 
+## Sample queries which we can run on the database
+https://codelabs-preview.appspot.com/?file_id=1sJ3vLDv83cW0dI07KAWK0oBDkAckGJ1125z6Kcy08Xk#1
+
 ## Web Application
 
 ### Application Login Page
@@ -54,5 +57,3 @@ https://codelabs-preview.appspot.com/?file_id=19Bnws-7eOGZbO5uSpvoPmIzAeLpOETKMh
 
 ![](Project%20Diagrams%20and%20Images/Inventory%20Dashboard.png)
 
-## Sample queries which we can run on the database
-https://codelabs-preview.appspot.com/?file_id=1sJ3vLDv83cW0dI07KAWK0oBDkAckGJ1125z6Kcy08Xk#1
