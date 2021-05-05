@@ -19,3 +19,6 @@
 
 ### Treatment Cluster Model
 ![](Project%20Diagrams/TreatmentClusterPNG.PNG)
+
+### Sample queries which we can run on the database
+https://codelabs-preview.appspot.com/?file_id=1sJ3vLDv83cW0dI07KAWK0oBDkAckGJ1125z6Kcy08Xk#1
