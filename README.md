@@ -16,19 +16,23 @@ Dental Management System is a database management system for monitoring and hand
 https://codelabs-preview.appspot.com/?file_id=19Bnws-7eOGZbO5uSpvoPmIzAeLpOETKMhDN8yfTHAk4#1
 
 ### High Level Diagram
-![](Project%20Diagrams/High_Lvl_Diagram.PNG)
+![](Project%20Diagrams%20and%20Images/High_Lvl_Diagram.PNG)
 
 ### Dentist Cluster Model
-![](Project%20Diagrams/DentistCluster.PNG)
+![](Project%20Diagrams%20and%20Images/DentistCluster.PNG)
 
 ### Inventory Cluster Model
-![](Project%20Diagrams/InventoryCluster.png)
+![](Project%20Diagrams%20and%20Images/InventoryCluster.png)
 
 ### Patient Cluster Model
-![](Project%20Diagrams/PatientCluster.png)
+![](Project%20Diagrams%20and%20Images/PatientCluster.png)
 
 ### Treatment Cluster Model
-![](Project%20Diagrams/TreatmentClusterPNG.PNG)
+![](Project%20Diagrams%20and%20Images/TreatmentClusterPNG.PNG)
+
+### Application Login Page
+![](Project%20Diagrams%20and%20Images/Login Page.png)
+
 
 ### Sample queries which we can run on the database
 https://codelabs-preview.appspot.com/?file_id=1sJ3vLDv83cW0dI07KAWK0oBDkAckGJ1125z6Kcy08Xk#1
