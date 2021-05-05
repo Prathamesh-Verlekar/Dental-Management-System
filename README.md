@@ -10,7 +10,10 @@ Dental Management System is a database management system for monitoring and hand
 - Create Data Model.
 - Create a database in SQL Server
 - Create a Web Interface
-- Write queires to retrieve the data based on the requirements 
+- Write queires to retrieve the data based on the requirements
+
+### Business Rules for the Project
+https://codelabs-preview.appspot.com/?file_id=19Bnws-7eOGZbO5uSpvoPmIzAeLpOETKMhDN8yfTHAk4#1
 
 ### High Level Diagram
 ![](Project%20Diagrams/High_Lvl_Diagram.PNG)
