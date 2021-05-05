@@ -18,7 +18,7 @@
 ![](Project%20Diagrams/InventoryCluster.png)
 
 ### Patient Cluster Model
-![](Project%20Diagrams/PatientCluster.PNG)
+![](Project%20Diagrams/PatientCluster.png)
 
 ### Treatment Cluster Model
 ![](Project%20Diagrams/TreatmentClusterPNG.PNG)
