@@ -1,4 +1,4 @@
-# Dental-Management-System-Database
+# Dental-Management-System
 ### Deliverables
 - High Level Database Diagram.
 - Business Rules.
