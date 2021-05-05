@@ -1,9 +1,12 @@
 # Dental-Management-System
 ### Deliverables
-- High Level Database Diagram.
-- Business Rules.
-- Main Subject Area.
-- Data Model.
+- Design a High Level Database Diagram.
+- Define Business Rules.
+- Write the Main Subject Area.
+- Create Data Model.
+- Create a database in SQL Server
+- Create a Web Interface
+- Write queires to retrieve the data based on the requirements 
 
 ### High Level Diagram
 ![](Project%20Diagrams/HighLevelDiagram.PNG)
