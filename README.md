@@ -9,7 +9,7 @@
 - Write queires to retrieve the data based on the requirements 
 
 ### High Level Diagram
-![](Project%20Diagrams/High_Level_Diagram.PNG)
+![](Project%20Diagrams/HighLevelDiagram.PNG)
 
 ### Dentist Cluster Model
 ![](Project%20Diagrams/DentistCluster.PNG)
