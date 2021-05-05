@@ -12,6 +12,10 @@ Dental Management System is a database management system for monitoring and hand
 - Create a Web Interface
 - Write queires to retrieve the data based on the requirements
 
+### Audience
+- Dentist
+- Admin
+
 ## Business Rules for the Project
 https://codelabs-preview.appspot.com/?file_id=19Bnws-7eOGZbO5uSpvoPmIzAeLpOETKMhDN8yfTHAk4#1
 
